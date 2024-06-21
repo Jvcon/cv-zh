@@ -10,6 +10,6 @@
 },
   
   mermaidConfig: {
-  "startOnLoad": false
+  "startOnLoad": true
 },
 })

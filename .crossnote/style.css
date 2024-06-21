@@ -1,0 +1,243 @@
+.markdown-preview.markdown-preview {
+  /* HTML5 display-role reset for older browsers */
+  /* end of reset */
+  /* Section headers */
+}
+@media print {
+  .markdown-preview.markdown-preview p {
+    page-break-inside: avoid;
+  }
+  .markdown-preview.markdown-preview h2 {
+    page-break-after: avoid;
+  }
+  .markdown-preview.markdown-preview h3 {
+    page-break-after: avoid;
+  }
+  .markdown-preview.markdown-preview hr {
+    page-break-after: always;
+    /* CSS 2 */
+    /* minimal layout disruption: */
+    height: 0.1mm;
+    visibility: hidden;
+  }
+}
+.markdown-preview.markdown-preview html,
+.markdown-preview.markdown-preview body,
+.markdown-preview.markdown-preview div,
+.markdown-preview.markdown-preview span,
+.markdown-preview.markdown-preview applet,
+.markdown-preview.markdown-preview object,
+.markdown-preview.markdown-preview iframe,
+.markdown-preview.markdown-preview h1,
+.markdown-preview.markdown-preview h2,
+.markdown-preview.markdown-preview h3,
+.markdown-preview.markdown-preview h4,
+.markdown-preview.markdown-preview h5,
+.markdown-preview.markdown-preview h6,
+.markdown-preview.markdown-preview p,
+.markdown-preview.markdown-preview blockquote,
+.markdown-preview.markdown-preview pre,
+.markdown-preview.markdown-preview a,
+.markdown-preview.markdown-preview abbr,
+.markdown-preview.markdown-preview acronym,
+.markdown-preview.markdown-preview address,
+.markdown-preview.markdown-preview big,
+.markdown-preview.markdown-preview cite,
+.markdown-preview.markdown-preview code,
+.markdown-preview.markdown-preview del,
+.markdown-preview.markdown-preview dfn,
+.markdown-preview.markdown-preview em,
+.markdown-preview.markdown-preview img,
+.markdown-preview.markdown-preview ins,
+.markdown-preview.markdown-preview kbd,
+.markdown-preview.markdown-preview q,
+.markdown-preview.markdown-preview s,
+.markdown-preview.markdown-preview samp,
+.markdown-preview.markdown-preview small,
+.markdown-preview.markdown-preview strike,
+.markdown-preview.markdown-preview strong,
+.markdown-preview.markdown-preview sub,
+.markdown-preview.markdown-preview sup,
+.markdown-preview.markdown-preview tt,
+.markdown-preview.markdown-preview var,
+.markdown-preview.markdown-preview b,
+.markdown-preview.markdown-preview u,
+.markdown-preview.markdown-preview i,
+.markdown-preview.markdown-preview center,
+.markdown-preview.markdown-preview dl,
+.markdown-preview.markdown-preview dt,
+.markdown-preview.markdown-preview dd,
+.markdown-preview.markdown-preview ol,
+.markdown-preview.markdown-preview ul,
+.markdown-preview.markdown-preview li,
+.markdown-preview.markdown-preview fieldset,
+.markdown-preview.markdown-preview form,
+.markdown-preview.markdown-preview label,
+.markdown-preview.markdown-preview legend,
+.markdown-preview.markdown-preview table,
+.markdown-preview.markdown-preview caption,
+.markdown-preview.markdown-preview tbody,
+.markdown-preview.markdown-preview tfoot,
+.markdown-preview.markdown-preview thead,
+.markdown-preview.markdown-preview tr,
+.markdown-preview.markdown-preview th,
+.markdown-preview.markdown-preview td,
+.markdown-preview.markdown-preview article,
+.markdown-preview.markdown-preview aside,
+.markdown-preview.markdown-preview canvas,
+.markdown-preview.markdown-preview details,
+.markdown-preview.markdown-preview embed,
+.markdown-preview.markdown-preview figure,
+.markdown-preview.markdown-preview figcaption,
+.markdown-preview.markdown-preview footer,
+.markdown-preview.markdown-preview header,
+.markdown-preview.markdown-preview hgroup,
+.markdown-preview.markdown-preview menu,
+.markdown-preview.markdown-preview nav,
+.markdown-preview.markdown-preview output,
+.markdown-preview.markdown-preview ruby,
+.markdown-preview.markdown-preview section,
+.markdown-preview.markdown-preview summary,
+.markdown-preview.markdown-preview time,
+.markdown-preview.markdown-preview mark,
+.markdown-preview.markdown-preview audio,
+.markdown-preview.markdown-preview video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.markdown-preview.markdown-preview article,
+.markdown-preview.markdown-preview aside,
+.markdown-preview.markdown-preview details,
+.markdown-preview.markdown-preview figcaption,
+.markdown-preview.markdown-preview figure,
+.markdown-preview.markdown-preview footer,
+.markdown-preview.markdown-preview header,
+.markdown-preview.markdown-preview hgroup,
+.markdown-preview.markdown-preview menu,
+.markdown-preview.markdown-preview nav,
+.markdown-preview.markdown-preview section {
+  display: block;
+}
+.markdown-preview.markdown-preview body {
+  line-height: 1;
+}
+.markdown-preview.markdown-preview ol,
+.markdown-preview.markdown-preview ul {
+  list-style: none;
+}
+.markdown-preview.markdown-preview blockquote,
+.markdown-preview.markdown-preview q {
+  quotes: none;
+}
+.markdown-preview.markdown-preview blockquote:before,
+.markdown-preview.markdown-preview blockquote:after,
+.markdown-preview.markdown-preview q:before,
+.markdown-preview.markdown-preview q:after {
+  content: "";
+  content: none;
+}
+.markdown-preview.markdown-preview table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.markdown-preview.markdown-preview body {
+  font: normal normal 400;
+  font-size: 11pt;
+  line-height: 1.5em;
+  /*also written as...  font: normal normal 400 100%/1.5em;*/
+  font-family: "Helvetica", sans-serif;
+  margin: 0.5in 0.5in 0.5in 0.5in;
+  /* margin-top: 1em;
+	  margin-left: 1em; */
+}
+.markdown-preview.markdown-preview strong {
+  font-weight: bold;
+}
+.markdown-preview.markdown-preview p strong {
+  font-weight: bold;
+}
+.markdown-preview.markdown-preview em {
+  font-style: italic;
+}
+.markdown-preview.markdown-preview h1 {
+  font-family: "Avenir Next", sans-serif;
+  text-align: center;
+  /* font-size: 50pt; */
+  font-size: 300%;
+  font-weight: lighter;
+  line-height: 1.2em;
+  position: relative;
+  /* left: 28%; */
+}
+.markdown-preview.markdown-preview h1 strong {
+  font-family: "Avenir Next", sans-serif;
+  text-align: center;
+  font-size: 50pt;
+  font-weight: lighter;
+  line-height: 1.2em;
+  position: relative;
+  /* left: 28%; */
+}
+.markdown-preview.markdown-preview h2 {
+  font-family: "Avenir Next", sans-serif;
+  font-size: 20pt;
+  text-align: center;
+  font-weight: normal;
+  display: flex;
+  /* line-height: 1.5em; */
+  margin-top: 0.7em;
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+.markdown-preview.markdown-preview h2:after {
+  border-bottom: 1.7px dashed #d3d3d3;
+  /* height: 0.8em; */
+  margin-left: 10px;
+  content: "";
+  flex: 1;
+}
+.markdown-preview.markdown-preview h3 strong {
+  /* line-height: 2.5em; */
+}
+.markdown-preview.markdown-preview h3 {
+  margin-top: 10px;
+}
+.markdown-preview.markdown-preview code {
+  font-family: "Palatino";
+  font-style: italic;
+  float: right;
+}
+.markdown-preview.markdown-preview li:before {
+  content: "-";
+  position: relative;
+  left: -0.5em;
+}
+.markdown-preview.markdown-preview li {
+  /*second line indent*/
+  padding-left: 2.25em;
+  text-indent: -1.25em;
+  /*color: #777;*/
+}
+.markdown-preview.markdown-preview #contact-info {
+  text-align: center;
+  position: relative;
+  font-weight: lighter;
+  color: #ccc;
+  /* font-family: Menlo,monospace,sans-serif; */
+  font-size: 80%;
+}
+.markdown-preview.markdown-preview #contact-info a {
+  text-decoration: none;
+}
+.markdown-preview.markdown-preview a {
+  text-decoration: none;
+  color: #147497;
+}
+.markdown-preview.markdown-preview hr {
+  visibility: hidden;
+  height: 0mm;
+}
